@@ -32,8 +32,8 @@ ActiveTrans   := Round(255 * (ini_APct / 100))
 InactiveTrans := Round(255 * (ini_IPct / 100))
 StringReplace, iniTitle, iniTitle, `,%A_Space%, `,, All
 StringReplace, iniClass, iniClass, `,%A_Space%, `,, All
-TitleList := "" iniTitle
-ClassList := "Button,Desktop User Picture,SysDragImage,Progman,Shell_TrayWnd,icoTrilly," iniClass
+TitleList := "," iniTitle
+ClassList := "Button,Desktop User Picture,SysDragImage,Progman,Shell_TrayWnd,MsCommunicatorToastPopup,NUIDialog,icoTrilly," iniClass
 ;Ghost
 ;DV2ControlHost,SysShadow,GestureFeedbackAnimationWindow
 
@@ -57,7 +57,6 @@ TransWindows:
             Match := 1
         If InStr(Win_Class, "USurface") ;Steam Fix
         OR InStr(Win_Class, "Trillian") ;Trillian Fix
-        OR InStr(Win_Class, "NUIDialog") ;Outlook Mail Notification Fix
         OR InStr(Win_Title, "Radial menu.ahk") ;Radial Menu Fix
             Match := 1
 
