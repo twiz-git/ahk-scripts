@@ -3,8 +3,9 @@
 #Persistent	; Keep the script 'alive' in the tray
 
 ;Mutlitply the value by 60000 to use minutes (1,000ms = 1sec, 60,0000ms = 60 sec)
-UpdateTimer := 60000 * 5
-IPAddress := "192.168.1.110"
+UpdateTimer	:= 60000 * 5
+MaxIdleTime	:= 60000 * 10
+IPAddress	:= "127.0.0.1"
 
 ; Create a repeating Timer to check if Idle
 SetTimer, CheckIdle, %UpdateTimer%
@@ -13,7 +14,7 @@ Return
 
 CheckIdle:
 	; Check if host PC has been idle more than X minutes
-	If (A_TimeIdle > UpdateTimer) {
+	If (A_TimeIdle > MaxIdleTime) {
 		; If idle, ping remote client to check state
 		If IsOnline(IPAddress) {
 			; If the remote client is on, we reset idle time by "moving" the mouse
