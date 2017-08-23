@@ -42,6 +42,7 @@ CheckIdle:
 				; If the Plex server has connected users, we reset idle computers time by "moving"
 				; the mouse cursor 0px by 0px, with 0 delay, [R]elative to it's current position
 				MouseMove, 0, 0, 0, R
+			}
 		; If the response contains the word "Unauthorized", display this message and exit
 		} Else If InStr(Response, "Unauthorized") {
 			MsgBox,, % RegExReplace(Response, "is).*<body>.*?<h1>(.*?)</h1>.*?</body>.*", "$1"), It appears your Plex Token is invalid.`nPlease check that your Plex Token is correct and run the app again.
