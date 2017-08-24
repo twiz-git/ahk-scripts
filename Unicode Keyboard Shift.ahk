@@ -15,12 +15,21 @@ Press1:
 Return
 
 Press2:
-	Clipboard := Chr(GetKeyVK(SubStr(A_ThisHotkey, 2)) + 0x1D504 - 0x41)
+	Clipboard := Chr(FixMissing(GetKeyVK(SubStr(A_ThisHotkey, 2)) + 0x1D504 - 0x41))
 	Send, ^v
 Return
 
 `::Suspend
 
+FixMissing(Value) {
+	;If ? Then : Else
+	Return %	((Value = "0x1D506") ? ("0x212D")	; Fraktur C
+			:	((Value = "0x1D50B") ? ("0x210C")	; Fraktur H
+			:	((Value = "0x1D50C") ? ("0x2111")	; Fraktur I
+			:	((Value = "0x1D515") ? ("0x211C")	; Fraktur R
+			:	((Value = "0x1D51D") ? ("0x2128")	; Fraktur Z
+			:	Value)))))
+}
 
 
 /*	https://unicode-table.com/en/blocks/mathematical-alphanumeric-symbols/
@@ -31,7 +40,7 @@ Return
 0x0FF21 - 0x0FF3A	Full-Width Upper Case
 0x0FF41 - 0x0FF5A	Full-Width Lower Case
 
-0x1D504 - 0x1D51D	Fraktur Upper Case
+0x1D504 - 0x1D51D	Fraktur Upper Case, Missing C, H, I, R, Z
 0x1D51E - 0x1D537	Fraktur Lower Case
 
 0x1D56C - 0x1D585	Bold Fraktur Upper Case
