@@ -1,6 +1,10 @@
 #SingleInstance, Force
 SetFormat, Integer, Hex
 
+_Upper := 0x1D504
+_Lower := 0x1D51E
+
+
 Loop, 26 {
 	_Code := A_Index + 0x40
 	Hotkey, % Format("vk{:02x}", _Code), Press1, On
@@ -10,12 +14,12 @@ Return
 
 Press1:
 	_Key := "0x" SubStr(A_ThisHotkey,3)
-	Clipboard := Chr(_Key + 0x1D51E - 0x41)
+	Clipboard := Chr(_Key + _Lower - 0x41)
 	Send, ^v
 Return
 
 Press2:
-	Clipboard := Chr(FixMissing(GetKeyVK(SubStr(A_ThisHotkey, 2)) + 0x1D504 - 0x41))
+	Clipboard := Chr(FixMissing(GetKeyVK(SubStr(A_ThisHotkey, 2)) + _Upper - 0x41))
 	Send, ^v
 Return
 
@@ -45,3 +49,7 @@ FixMissing(Value) {
 
 0x1D56C - 0x1D585	Bold Fraktur Upper Case
 0x1D586 - 0x1D59F	Bold Fraktur Lower Case
+
+0x1F130 - 0x1F149	Squared Latin Capital Letter
+0x1F170 - 0x1F170	Negative Squared Latin Capital Letter
+0x1F1E6 - 0x1F1FF 	Regional Indicator Symbol Lette
