@@ -43,8 +43,9 @@ For Key, Value in _StyleList	; Key = hex, Value = name
 	n -= 1
 }
 
+yStart := 18
 xPos := 10
-yPos := 18
+yPos := yStart
 
 
 Gui, Add, GroupBox, Section w525 r5 v_GroupBox, Window Style
@@ -58,7 +59,7 @@ Loop, % _StyleList.Count()
 	If (n >= 5) {
 		n := 0
 		xPos += 125
-		yPos := 18
+		yPos := yStart
 	}
 }
 
@@ -70,6 +71,8 @@ Return
 F12::
 	WinGet, _WinStyle, Style, A
 	WinGetTitle, _WinTitle, A
+	SysGet, _Mon, MonitorWorkArea
+
 	GuiControl,, _GroupBox, %_WinStyle% - %_WinTitle%
 	_temp := _WinStyle
 	
@@ -82,23 +85,14 @@ F12::
 			GuiControl,, _Var%vIndex%, 0
 		}
 	}
-	Gui, Show, NA
+
+	WinXPos := (_MonRight - 551) / 2
+	Gui, Show, NA x%WinXPos% y0
 	If (_temp > 0)
 		MsgBox % _temp
 Return
 
-/*
 
-
-
-MsgBox % "Window Style:`t" _WinStyle "`nRemaining:`t" _temp "`n" _List
-
-/*
-F1::
-	WinGet, _WinStyle, Style, A
-	;WinGet, _WinExStyle, ExStyle, A
-	MsgBox, Window Style:`t%_WinStyle%`nWindow ExStyle:`t%_WinExStyle%
-Return
 
 /*	Window Style List	--	https://docs.microsoft.com/en-us/windows/win32/winmsg/window-styles
 WS_BORDER			0x00800000		The window has a thin-line border.
