@@ -43,9 +43,8 @@ For Key, Value in _StyleList	; Key = hex, Value = name
 	n -= 1
 }
 
-yStart := 18
 xPos := 10
-yPos := yStart
+yPos := 18
 
 
 Gui, Add, GroupBox, Section w525 r5 v_GroupBox, Window Style
@@ -59,7 +58,7 @@ Loop, % _StyleList.Count()
 	If (n >= 5) {
 		n := 0
 		xPos += 125
-		yPos := yStart
+		yPos := 18
 	}
 }
 
