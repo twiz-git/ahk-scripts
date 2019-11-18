@@ -1,0 +1,1229 @@
+0100100,Snail,1,0
+0100101,Blue Snail,2,0
+0120100,Shroom,2,0
+0130100,Stump,4,0
+0130101,Red Snail,4,0
+0210100,Slime,6,1
+1110100,Green Mushroom,15,5
+1110101,Dark Stump,10,0
+1120100,Octopus,12,4
+1130100,Axe Stump,17,5
+1140100,Ghost Stump,19,10
+1210100,Pig,7,0
+1210101,Ribbon Pig,10,2
+1210102,Orange Mushroom,8,1
+1210103,Bubbling,15,10
+2100100,Desert Rabbit (F),20,8
+2100101,Desert Rabbit (M),21,9
+2100102,Jr. Cactus,22,8
+2100103,Cactus,25,9
+2100104,Royal Cactus,28,10
+2100105,Bellamoa,23,9
+2100106,Ear Plug Plead,24,9
+2100107,Scarf Plead,27,10
+2100108,Meercat,29,10
+2110200,Horny Mushroom,22,7
+2110300,Sand Rat,24,10
+2110301,Scorpion,29,10
+2130100,Dark Axe Stump,10,7
+2130103,Jr. Necki,21,25
+2220000,Mano ,20,8
+2220100,Blue Mushroom,20,7
+2230100,Evil Eye,27,10
+2230101,Zombie Mushroom,24,8
+2230102,Wild Boar,25,8
+2230103,Trixter,23,10
+2230104,Green Trixter,28,12
+2230105,Seacle,23,9
+2230106,Cico,25,8
+2230107,Krappy,24,8
+2230108,Pinboom,22,7
+2230109,Bubble Fish,28,10
+2230110,Wooden Mask,23,10
+2230111,Rocky Mask,24,10
+2230200,Flower Fish,29,10
+2300100,Stirge,20,10
+3000000,Sentinel,30,12
+3000001,Fairy 1,30,25
+3000002,Fairy 2,30,25
+3000003,Fairy 3,30,25
+3000004,Fairy 4,30,25
+3000005,Brown Teddy,30,12
+3000006,Krip,30,12
+3100101,Sand Dwarf ,32,12
+3100102,Kiyo,30,13
+3110100,Ligator,32,12
+3110101,Pink Teddy,32,14
+3110102,Ratz,32,13
+3110300,Cube Slime,32,12
+3110301,Dark Sand Dwarf ,32,12
+3110302,Rumo,35,18
+3110303,Triple Rumo,38,18
+3210100,Fire Boar,32,10
+3210200,Jr. Cellion,33,15
+3210201,Jr. Lioner,33,15
+3210202,Jr. Grupin,33,15
+3210203,Panda Teddy,36,16
+3210204,Roloduck,34,16
+3210205,Black Ratz,34,14
+3210206,Helly,36,17
+3210207,Tick,34,14
+3210208,Retz,36,18
+3210450,Scuba Pepe,36,18
+3210800,Lupin,37,20
+3220000,Stumpy,35,12
+3220001,Deo,38,18
+3230100,Curse Eye,35,10
+3230101,Jr. Wraith,35,17
+3230102,Lorang,37,18
+3230103,King Bloctopus,38,18
+3230104,Mask Fish,32,14
+3230200,Star Pixie,35,21
+3230300,Jr. Boogie 1,35,27
+3230301,Jr. Boogie 2,35,27
+3230302,Bloctopus,35,15
+3230303,Propelly,37,18
+3230304,Planey,38,19
+3230305,Toy Trojan,39,18
+3230306,Chronos,37,20
+3230307,Chirppy,31,10
+3230308,Tweeter,39,17
+3230400,Drumming Bunny,30,12
+3230405,Jr. Seal,38,18
+4090000,Iron Hook,42,18
+4110300,Iron Mutae,42,12
+4110301,Reinforced Iron Mutae,45,20
+4110302,Mithril  mutae,47,18
+4130100,Copper Drake,45,18
+4130101,Tortie,46,15
+4130102,Dark Nependeath,47,15
+4130103,Rombot,47,16
+4130104,Dark Nependeath,47,15
+4220000,Seruf,45,20
+4220001,Seruf,45,20
+4230100,Cold Eye,40,15
+4230101,Zombie Lupin,40,25
+4230102,Wraith,48,20
+4230103,Iron Hog,42,18
+4230104,Clang,48,20
+4230105,Nependeath,42,10
+4230106,Lunar Pixie,45,24
+4230107,Flyeye,41,28
+4230108,Jr. Cerebes,43,25
+4230109,Block Golem,42,12
+4230110,King Block Golem,45,14
+4230111,Robo,41,15
+4230112,Master Robo,44,18
+4230113,Tick-Tock,40,20
+4230114,Platoon Chronos,41,22
+4230115,Master Chronos,46,24
+4230116,Barnard Gray,40,18
+4230117,Zeta Gray,42,20
+4230118,Ultra Gray,45,21
+4230119,Mateon,41,16
+4230120,Plateon,44,18
+4230121,Mecateon,46,20
+4230122,Nependeath,42,10
+4230123,Sparker,43,15
+4230124,Freezer,42,20
+4230125,Skeledog,44,18
+4230126,Mummydog,47,18
+4230200,Poopa,40,18
+4230201,Poison Poopa,40,18
+4230300,Moon Bunny,45,20
+4230400,Iron Boar,45,20
+4230500,Chipmunk,40,15
+4230501,Red Porky,41,15
+4230502,Black Porky,43,15
+4230503,Blue Flower Serpent,45,20
+4230504,Red Flower Serpent,45,20
+4230505,Jar,47,18
+4230506,Ginseng Jar,48,20
+4230600,Desert Giant ,40,17
+4240000,Chief Gray,49,25
+4250000,Mossy Snail,42,12
+4250001,Tree Rod,46,15
+5090000,Shade,56,999
+5090001,Master Dummy,59,999
+5100000,Jr. Yeti,50,25
+5100001,Transforming Jr. Yeti,50,25
+5100002,Firebomb,51,28
+5100003,Hodori,50,28
+5100004,Samiho,56,28
+5100005,Hogul,53,25
+5110300,Reinforced Mithril Mutae ,50,15
+5110301,Roid ,54,18
+5110302,Neo Huroid,58,20
+5120000,Luster Pixie,52,22
+5120001,Cellion,53,25
+5120002,Lioner,53,25
+5120003,Grupin,53,25
+5120100,MT-09,54,20
+5120500,Grizzly,56,18
+5120501,Bellflower Root,53,16
+5120502,Sr. Bellflower Root,54,18
+5120503,Straw Target Dummy,50,15
+5120504,Wooden Target Dummy,51,18
+5120505,Reindeer,58,20
+5120506,The Book Ghost,55,20
+5130100,Drake,50,18
+5130101,Stone Golem,55,15
+5130102,Dark Stone Golem,58,18
+5130103,Croco,52,20
+5130104,Hector,55,20
+5130105,Dark Jr. Yeti,56,27
+5130106,Transforming Dark Jr. Yeti,56,27
+5130107,Coolie Zombie,57,25
+5130108,Miner Zombie,57,25
+5140000,White Fang,58,25
+5150000,Mixed Golem,59,20
+5150001,Skeleton Soldier,57,25
+5200000,Jr. Sentinel,23,8
+5200001,Ice Sentinel,30,12
+5200002,Fire Sentinel,30,12
+5220000,King Clang,55,20
+5220001,King Clang,55,20
+5220002,Faust,50,20
+5220003,Timer,59,20
+5250000,Mossy Mushroom,55,20
+5250001,Stone Bug,51,15
+5250002,Primitive Boar,57,20
+5300000,Leatty,32,13
+5300001,Dark Leatty,33,15
+5300100,Malady,55,20
+5400000,Jr. Pepe,35,18
+6090000,Riche,65,999
+6090001,Snow Witch,64,999
+6090002,Bamboo Warrior,68,999
+6090003,Scholar Ghost,62,999
+6090004,Rurumo,63,999
+6110300,Homun,65,24
+6110301,Site,68,26
+6130100,Red Drake,60,22
+6130101,Mushmom,60,27
+6130102,Separated Pepe,60,30
+6130103,Pepe,60,30
+6130104,Boogie,35,35
+6130200,Buffy,61,23
+6130201,Blin,60,38
+6130202,Morphed Blin,60,25
+6130203,Panda,60,22
+6130204,Mr. Alli,64,25
+6130207,Peach Monkey,62,25
+6130208,Kru,68,26
+6130209,Sage Cat,66,24
+6220000,Dyle,65,30
+6220001,Zeno,65,29
+6230100,Wild Kargo,62,20
+6230101,Puco,63,36
+6230200,Dark Pepe,64,31
+6230201,Separated Dark Pepe,64,31
+6230300,Lazy Buffy,66,26
+6230400,Soul Teddy,63,25
+6230401,Jr. Lucida ,63,25
+6230500,Master Soul Teddy,67,27
+6230600,Ice Drake,64,25
+6230601,Dark Drake,68,27
+6230602,Officer Skeleton,63,25
+6300000,Yeti,65,24
+6300001,Transformed Yeti,65,24
+6300002,Separated Yeti,65,24
+6300003,Punco,67,37
+6300004,Pachu,66,35
+6300005,Zombie Mushmom,65,30
+6300100,Buffoon,74,27
+6400000,Dark Yeti,68,26
+6400001,Transformed Dark Yeti,68,26
+6400002,Separated Dark Yeti,68,26
+6400003,Cuzco,69,40
+6400004,Opachu,70,50
+6400100,Deep Buffoon,77,28
+7090000,Security Camera,75,999
+7110300,D. Roy,75,25
+7110301,Homunculus ,73,28
+7120100,Gatekeeper Nex,70,30
+7120101,Gatekeeper Nex,73,30
+7120102,Gatekeeper Nex,77,30
+7130000,Lucida,73,28
+7130001,Cerebes,72,30
+7130002,Beetle,72,30
+7130003,Dual Beetle,76,27
+7130004,Hankie,78,30
+7130010,Death Teddy,85,27
+7130020,Goby,85,29
+7130100,Tauromacis,70,15
+7130101,Taurospear,75,30
+7130102,Yeti and Pepe,78,30
+7130103,Commander Skeleton,73,32
+7130104,Captain,70,26
+7130200,Werewolf,75,25
+7130300,Master Death Teddy,89,28
+7130400,Yellow King Goblin,70,15
+7130401,Blue King Goblin,70,15
+7130402,Green King Goblin,70,15
+7130500,Rash,70,25
+7130501,Dark Rash,74,27
+7130600,Hobi,72,25
+7130601,Green Hobi,76,28
+7130602,Thornbush,76,20
+7140000,Ghost Pirate,83,27
+7160000,Dual Ghost Pirate,87,28
+7220000,Tae Roon,71,30
+7220001,Old Fox,70,25
+7220002,King Sage Cat,77,27
+8090000,Deet and Roi,80,999
+8110300,Homunscullo,80,28
+8130100,Jr. Balrog,80,30
+8140000,Lycanthrope,80,28
+8140001,Harp,80,28
+8140002,Blood Harp,83,27
+8140100,Dark Yeti and Pepe,82,30
+8140101,Black Kentaurus,88,28
+8140102,Red Kentaurus,88,28
+8140103,Blue Kentaurus,88,28
+8140110,Birk,85,27
+8140111,Dual Birk,88,28
+8140200,Klock,70,26
+8140300,Dark Klock,76,27
+8140500,Bain,90,38
+8140555,Bombing Fish House ,90,35
+8140600,Bone Fish,92,38
+8140700,Blue Dragon Turtle,90,37
+8140701,Red Dragon Turtle,93,37
+8140702,Rexton,95,37
+8140703,Brexton,97,37
+8141000,Spirit Viking,93,37
+8141100,Gigantic Spirit Viking,98,38
+8141300,Squid,94,37
+8142000,Phantom Watch,95,37
+8142100,Risell Squid,97,37
+8143000,Grim Phantom Watch,99,38
+8150000,Crimson Balrog,100,40
+8150100,Shark,100,38
+8150101,Cold Shark,102,38
+8150200,Green Cornian,100,45
+8150201,Dark Cornian,105,45
+8150300,Red Wyvern,97,37
+8150301,Blue Wyvern,101,38
+8150302,Dark Wyvern,103,38
+8160000,Gatekeeper,108,37
+8170000,Thanatos,108,38
+8180000,Manon,7,39
+8180001,Griffey,105,39
+8190000,Jr. Newtie,105,38
+8190001,Jr. Newtie,105,38
+8190002,Nest Golem,110,38
+8190003,Skelegon,110,38
+8190004,Skelosaurus,113,38
+8190005,Nest Golem,110,38
+8200000,Eye of Time,80,30
+8200001,Memory Monk,91,37
+8200002,Memory Monk Trainee,94,37
+8200003,Memory Guardian,98,37
+8200004,Chief Memory Guardian,101,37
+8200005,Qualm Monk,106,37
+8200006,Qualm Monk Trainee,109,38
+8200007,Qualm Guardian,113,39
+8200008,Chief Qualm Guardian,116,40
+8200009,Oblivion Monk,121,41
+8200010,Oblivion Monk Trainee,124,43
+8200011,Oblivion Guardian,128,45
+8200012,Chief Oblivion Guardian,131,47
+8220000,Elliza,83,30
+8220001,Snowman,90,38
+8220002,Kimera,85,27
+8220003,Leviathan,120,41
+8220004,Dodo,121,42
+8220005,Lilynouch,131,47
+8220006,Lyka,141,49
+8500000,Time Sphere,100,12
+8500001,Papulatus Clock,125,12
+8500002,Papulatus,125,40
+8500003,High Darkstar,71,23
+8500004,Low Darkstar,80,15
+8510000,Pianus (R),110,14
+8510100,Bloody Boom,75,20
+8520000,Pianus (L),110,14
+8800000,Zakum1,140,12
+8800001,Zakum2,140,14
+8800002,Zakum3,140,16
+8800003,Zakum's Arm 1,140,14
+8800004,Zakum's Arm 2,140,14
+8800005,Zakum's Arm 3,140,14
+8800006,Zakum's Arm 4,140,14
+8800007,Zakum's Arm 5,140,14
+8800008,Zakum's Arm 6,140,14
+8800009,Zakum's Arm 7,140,14
+8800010,Zakum's Arm 8,140,14
+8810000,Horntail's Left Head,160,18
+8810001,Horntail's Right Head,160,18
+8810002,Horntail's Head A,160,43
+8810003,Horntail's Head B,160,45
+8810004,Horntail's Head C,160,43
+8810005,Horntail's Left Hand,160,40
+8810006,Horntail's Right Hand,160,40
+8810007,Horntail's Wings,160,42
+8810008,Horntail's Legs,160,42
+8810009,Horntail's Tails,160,40
+8810010,Dead Horntail's Head A,140,12
+8810011,Dead Horntail's Head B,140,12
+8810012,Dead Horntail's Head C,140,12
+8810013,Dead Horntail's Left Hand,140,12
+8810014,Dead Horntail's Right Hand,140,12
+8810015,Dead Horntail's Wings,140,12
+8810016,Dead Horntail's Legs,140,12
+8810017,Dead Horntail's Tails,140,12
+8810018,Horntail,1,0
+8810019,Red Wyvern,97,37
+8810022,Green Cornian,100,45
+8810024,Summon Horntail's Left Head,1,0
+8810025,Summon Horntail's Right Head,1,0
+8810026,Summon Horntail,1,0
+8810027,Zakum's Arms,1,0
+8810028,Tokyo stuff,1,0
+9000001,Curse Eye 2,35,10
+9000002,Horned Mushroom 2,35,10
+9000100,Fire Boar 2,35,10
+9000101,Lupin 2,35,10
+9000200,Evil Eye 2,35,18
+9000201,Zombie Mushroom 2,35,15
+9000300,Cold Eye 2,35,15
+9000301,Blue Mushroom 2,35,15
+9001000,Dances with Balrog's Clone,80,15
+9001001,Grendel the Really Old's Clone,80,10
+9001002,Athena Pierce's Clone,80,25
+9001003,Dark Lord's Clone,80,32
+9001004,Shadow Kyrin,80,18
+9001005,OctoPirate,35,15
+9001006,OctoPirate,35,0
+9001007,Scarecrow for Training,35,15
+9001008,Shadow Kyrin's Clone,80,15
+9100000,Super Slime,200,999
+9100001,Super Jr. Necki,200,999
+9100002,Super Stirge,200,999
+9100003,Ultra Jr. Necki 1,200,999
+9100004,Ultra Jr. Necki 2,200,999
+9100005,Super Trickster,200,999
+9100006,Super Green Trickster,200,999
+9100007,Super Ribbon-Pig,200,999
+9100008,Super Coke Snail 1,200,999
+9100009,Super Coke Snail 2,200,999
+9100010,Mr. Black Sheep,200,999
+9100013,Ardin,30,10
+9200000,Wild Boar (PC),25,8
+9200001,Fire Boar (PC),32,10
+9200002,Dark Stump (PC),10,0
+9200003,Horned Mushroom (PC),22,7
+9200004,Green Mushroom (PC),15,5
+9200005,Slime (PC),6,1
+9200006,Lupin (PC),37,20
+9200007,Zombie Lupin (PC),40,25
+9200008,Blue Mushroom (PC),20,7
+9200009,Stone Golem (PC),55,15
+9200010,Zombie Mushroom (PC),24,8
+9200011,Evil Eye (PC),27,10
+9200012,Drake (PC),50,18
+9200013,Cold Eye (PC),40,15
+9200014,Wild Kargo (PC),62,20
+9200015,Brown Tanny,30,12
+9200016,Drumming Bunny,30,12
+9200017,Pink Tanny,32,14
+9200018,Jr. Yetti,50,25
+9200019,White Fang,58,25
+9200020,Yetti & Pepe,78,30
+9200021,Separated Yetti,65,24
+9200022,Separated Pepe,60,30
+9300000,Jr. Necki (PC),21,15
+9300001,Ligator (PC),32,10
+9300002,Curse Eye (PC),35,8
+9300003,King Slime (PC),40,10
+9300004,Mimic,54,25
+9300005,Ratz from Another Dimension,32,13
+9300008,Shadow Eye from Another Dimension,43,18
+9300009,Block Golem from Another Dimension,40,12
+9300010,Rombad from Another Dimension,47,18
+9300011,Toy Trojan,39,18
+9300012,Alishar,56,26
+9300013,King Block Golem from Another Dimension,200,999
+9300014,Dark Eye from Another Dimension,43,18
+9300015,Cronos,37,22
+9300016,Platoon Cronos,41,24
+9300017,Master Cronos,46,26
+9300018,Tutorial Jr. Sentinel,1,0
+9300019,Master Muscle Stone,65,23
+9300020,Muscle Stone,63,23
+9300021,Dark Muscle Stone,200,999
+9300022,Black Knight,66,25
+9300023,Myst Knight,66,25
+9300024,Puppet Golem,67,21
+9300025,Gargoyle,68,20
+9300026,Jr. Gargoyle,62,26
+9300027,Devil Slime,23,8
+9300028,Ergoth,115,18
+9300029,Lion Statue A,99,13
+9300030,Lion Statue B,99,13
+9300031,Knight Statue A,100,14
+9300032,Knight Statue B,100,14
+9300033,Jr. Gargoyle,62,26
+9300034,Mist Knight,66,25
+9300035,Jr. Gargoyle,62,26
+9300037,Mist Knight,66,25
+9300038,Ghost Pixie,59,25
+9300039,Papa Pixie,49,18
+9300042,Grupin in Tower of Goddess,5,22
+9300043,Lioner in Tower of Goddess,57,22
+9300044,Luinel in Tower of Goddess,65,999
+9300045,Lunar Pixie in Tower of Goddess,1,21
+9300046,Star Pixie in Tower of Goddess,53,20
+9300047,Luster Pixie in Tower of Goddess,2,22
+9300048,Nependeath in Tower of Goddess,59,25
+9300049,Royal Nependeath in Tower of Goddess,59,25
+9300050,Flying Boogie,60,40
+9300051,Jr. Cellion in Tower of Goddess,51,20
+9300052,Jr. Lioner in Tower of Goddess,51,20
+9300053,Jr. Grupin in Tower of Goddess,51,20
+9300054,Lunar Pixie in Tower of Goddess(Summon Boss),1,21
+9300055,Star Pixie in Tower of Goddess(Summon Boss),53,20
+9300056,Luster Pixie in Tower of Goddess(Summon Boss),2,22
+9300058,Pig,7,0
+9300059,Ribbon Pig,10,2
+9300060,Iron Hog,42,5
+9300061,Moon Bunny,30,0
+9300062,Flyeye,8,1
+9300063,Stirge,6,3
+9300064,Goblin Fire,11,3
+9300065,Green Cornian1 in Cave,100,45
+9300066,Green Cornian 2 in Cave,100,45
+9300067,Dark Cornian 1 in Cave,105,45
+9300068,Dark Cornian 2 in Cave,105,45
+9300069,Red Wyvern 1 in Cave,97,37
+9300070,Red Wyvern 2 in Cave,97,37
+9300071,Blue Wyvern 1 in Cave,101,38
+9300072,Blue Wyvern 2 in Cave,101,38
+9300073,Dark Wyvern 1 in Cave,103,38
+9300074,Dark Wyvern 2 in Cave,103,38
+9300075,Skelegon 1 in Cave,110,38
+9300076,Skelegon 2 in Cave,110,38
+9300077,T-Skelegon in Cave,113,38
+9300078,Jr. Newtie in Cave,105,38
+9300079,Nest Golem in Cave,110,38
+9300080,Kru,68,26
+9300081,Flyeye,8,1
+9300082,Stirge,6,3
+9300083,Goblin Fire,11,3
+9300084,Deathly Fear,43,18
+9300085,Jr. Balrog in Another World,80,30
+9300086,The Elemental Thanatos,108,38
+9300087,The Charging Taurospear,75,30
+9300088,Dark Lord's Disciple,80,32
+9300089,Phoenix,120,39
+9300090,Freezer,120,39
+9300091,Buff Rocky in the Dark,200,999
+9300092,Jr. Balrog in Forgotten Shrine,80,30
+9300093,Tylus,30,0
+9300094,Crimson Balrog the Kidnapper,100,40
+9300095,Lycanthrope the Kidnapper,80,28
+9300097,Goby in Warped Dimension,85,29
+9300098,Bone Fish in Warped Dimension,92,38
+9300099,Shark in Warped Dimension,100,38
+9300100,The Elemental Thanatos,108,38
+9300101,Tamable Hog,70,999
+9300102,Watchhog,70,0
+9300104,Zeta Gray,70,18
+9300106,Enraged Lord Pirate,1,22
+9300107,Peeking Lord Pirate,70,22
+9300108,Lord Pirate's Jar,56,18
+9300109,Lord Pirate's Ginseng Jar,57,19
+9300110,Lord Pirate's Bellflower,58,18
+9300111,Lord Pirate's Ancient Bellflower,59,20
+9300112,Lord Pirate's 100yrOld Bellflower,59,22
+9300113,Lord Pirate's 100yrOld Ancient Bellflower,60,24
+9300114,Lord Pirate's Enraged Mr. Alli,58,18
+9300115,Lord Pirate's Enraged Kru,59,23
+9300116,Lord Pirate's Enraged Captain,60,22
+9300117,Lord Pirate's Devoted Kru,62,24
+9300118,Lord Pirate's Devoted Captain,64,26
+9300119,Lord Pirate,1,22
+9300120,Lord Pirate's Furious Mr. Alli,59,23
+9300121,Lord Pirate's Furious Kru,60,24
+9300122,Lord Pirate's Furious Captain,62,26
+9300123,Lord Pirate's Mr. Alli,59,20
+9300124,Lord Pirate's Kru,60,23
+9300125,Lord Pirate's Captain,62,23
+9300126,Lord Pirate's Enraged Ginseng Jar,59,19
+9300129,Ratz,30,25
+9300131,Toy Trojan,39,20
+9300132,Tick-Tock,30,15
+9300133,Robo,30,15
+9300134,King Bloctopus,30,14
+9300135,Master Chronos ,30,24
+9300136,Rombot,30,12
+9300137,Juliet,70,0
+9300138,Romeo,70,0
+9300139,Franken Lloyd,81,28
+9300140,Angry Franken Lloyd,84,33
+9300141,Homun of Closed Laboratory,65,24
+9300142,Homunculu of hidden laboratory,73,28
+9300143,Reinforced Iron Mutae,73,20
+9300144,Reinforced Mithril Mutae,47,20
+9300145,Homun,74,24
+9300146,Cyti,76,26
+9300147,Homunculus,77,28
+9300148,Neo Huroid,79,20
+9300149,Roid,78,18
+9300150,Neo Huroid,80,20
+9300151,Franken Lloyd,81,28
+9300153,Obstacle Mutae,62,25
+9300154,Neo Huroid for Experiement,58,20
+9300155,Pig,7,0
+9300156,Black Magician's Disciple,10,0
+9300157,Scorpion,25,11
+9300158,Kyrin,120,14
+9300159,Inferno Kyrin,120,14
+9300161,Red Flower Serpent,45,999
+9300162,Willi,55,0
+9300163,Sage Cat,120,25
+9300164,The Book Ghost,120,27
+9300165,Peach Monkey,120,25
+9300166,Bomb,35,0
+9300169,Ratz from Another Dimension,32,13
+9300172,Poisoned Lord Tree,62,0
+9300173,Poisoned Stone Bug,65,0
+9300174,Poison Flower,65,0
+9300175,Poisoned Spright,65,0
+9300176,Poison Golem,65,0
+9300177,Poison Golem Level 2,62,0
+9300178,Poison Golem Level 3,65,0
+9300179,Spright,65,0
+9300180,Poison Golem,65,18
+9300181,Charged Poison Golem,75,18
+9300182,Super-Charged Poison Golem,85,18
+9300183,Deeply Poisoned Stone Bug,1,999
+9300184,Mano,20,8
+9300185,Stumpy,35,12
+9300186,Deo,38,18
+9300187,King Slime,40,10
+9300188,Giant Centipede,50,27
+9300189,Faust,50,20
+9300190,King Clang,55,20
+9300191,Mushmom,60,27
+9300193,Timer,59,20
+9300194,Dyle,65,30
+9300195,Papa Pixie,65,18
+9400000,Crow,25,10
+9400001,Fire Raccoon,30,12
+9400002,Cloud Fox,30,12
+9400003,Nightghost,60,25
+9400004,Big Cloud Fox,45,20
+9400005,Red Boogie,15,9
+9400006,Blue Boogie,30,17
+9400007,Green Boogie,45,28
+9400008,Black Boogie,65,32
+9400010,Flaming Raccoon,200,999
+9400011,Paper Lantern Ghost,40,25
+9400012,Water Goblin,60,22
+9400013,Dreamy Ghost,100,34
+9400014,Black Crow,115,39
+9400100,Extra A,45,22
+9400101,Extra B,47,18
+9400102,Extra C,50,20
+9400103,Extra D,72,18
+9400110,Leader A,62,26
+9400111,Leader B,64,24
+9400112,Bodyguard A,152,40
+9400113,Bodyguard B,155,50
+9400114,Slot Machine,50,5
+9400120,Male Boss,8,35
+9400121,Female Boss,130,43
+9400122,Male Boss,8,35
+9400200,Malady,55,20
+9400201,Wild Cargo,62,20
+9400202,Golden Slime,1,1
+9400203,Silver Slime,40,18
+9400204,Red Slime,55,25
+9400205,Blue Mushmom,90,64
+9400209,Miner Zombie(JP),57,25
+9400210,Coolie Zombie(JP),57,23
+9400211,Dark Stone Golem(JP),58,18
+9400212,Stone Golem(JP),55,15
+9400213,Dark Jr. Yeti(JP),56,27
+9400214,Master Chronos(JP),46,24
+9400215,Ultra Gray(JP),45,21
+9400216,Zeta Gray(JP),42,20
+9400217,Flyeye(JP),41,28
+9400218,Tauromacis(JP),73,20
+9400238,Drumming Bunny,30,12
+9400239,Sand Rat,24,10
+9400240,Roid ,54,18
+9400241,Pig,7,0
+9400242,Ribbon Pig,10,2
+9400243,Stone Golem,55,15
+9400244,Mixed Golem,59,20
+9400245,Zombie Mushroom,24,8
+9400246,Horny Mushroom,22,7
+9400247,Drumming Bunny,30,12
+9400248,Sand Rat,24,10
+9400249,Roid ,54,18
+9400253,Afterroad,135,20
+9400254,Overload,137,42
+9400255,Protoroad,115,20
+9400256,Maverick A,141,41
+9400257,Maverick Y,143,43
+9400258,Maverick B,143,43
+9400259,Maverick V,143,43
+9400260,Eruwater,143,45
+9400261,Dida,140,0
+9400262,Summoned Overload,137,42
+9400263,Vergamot,168,35
+9400264,Vergamot,168,32
+9400265,Vergamot,168,28
+9400266,Nameless Magic Monster,174,40
+9400267,Nameless Magic Monster,131,47
+9400268,Nameless Magic Monster,131,47
+9400269,Nameless Magic Monster,131,47
+9400270,Dunas,174,21
+9400271,Nibergen,168,33
+9400272,Nibergen,168,30
+9400273,Nibergen,168,28
+9400274,Maverick S,143,43
+9400276,Overload,137,42
+9400277,Old Fox Flagship AI,100,0
+9400278,Maverick Form B,143,43
+9400279,Crystal,100,0
+9400280,Attack,160,50
+9400287,Imperial Guard,143,47
+9400288,Royal Guard,160,100
+9400289,Auf Haven,180,55
+9400290,Summoned Auf Haven,170,20
+9400291,Summoned Auf Haven,150,20
+9400292,Summoned Auf Haven,150,20
+9400293,Dunas Unit,174,35
+9400294,Dunas,176,23
+9400295,Dunas,174,22
+9400296,Core Blaze,178,20
+9400297,Chandellier,165,200
+9400298,Electric Pulse - Weak 1,180,10
+9400299,Electric Pulse - Weak 2,180,10
+9400300,The Boss,175,120
+9400310,Tic (Easy),8,3
+9400311,Tac (Easy),9,1
+9400312,Toe (Easy),11,3
+9400313,Tic (Medium),27,10
+9400314,Tac (Medium),28,25
+9400315,Toe (Medium),32,13
+9400316,Tic (Hard),58,15
+9400317,Tac (Hard),60,22
+9400318,Toe (Hard),62,20
+9400319,Cross (Easy),20,10
+9400320,Cross (Medium),45,25
+9400321,Cross (Hard),70,25
+9400322,Giant Snowman (Lvl 1) - Easy,23,0
+9400323,Giant Snowman (Lvl 2) - Easy,23,0
+9400324,Giant Snowman (Lvl 3) - Easy,23,0
+9400325,Giant Snowman (Lvl 4) - Easy,23,0
+9400326,Giant Snowman (Lvl 5) - Easy,23,0
+9400327,Giant Snowman (Lvl 1) - Medium,50,0
+9400328,Giant Snowman (Lvl 2) - Medium,50,0
+9400329,Giant Snowman (Lvl 3) - Medium,50,0
+9400330,Giant Snowman (Lvl 4) - Medium,50,0
+9400331,Giant Snowman (Lvl 5) - Medium,50,0
+9400332,Giant Snowman (Lvl 1) - Hard,80,0
+9400333,Giant Snowman (Lvl 2) - Hard,80,0
+9400334,Giant Snowman (Lvl 3) - Hard,80,0
+9400335,Giant Snowman (Lvl 4) - Hard,80,0
+9400336,Giant Snowman (Lvl 5) - Hard,80,0
+9400374,Electric Pulse - Strong 1,190,20
+9400375,Electric Pulse - Strong 2,190,20
+9400376,Cursed Auf Haven,175,25
+9400378,Electric Pulse - Vertical Strong 1,190,40
+9400379,Electric Pulse - Weak 1,180,10
+9400380,Electric Pulse - Weak 2,180,10
+9400400,Genin,25,14
+9400401,Chunin,50,40
+9400402,Jonin,80,30
+9400403,Ninto,100,35
+9400404,Ashigaru,30,8
+9400405,Kacchuu Musha,120,42
+9400406,Kunoichi,60,22
+9400407,Toad,130,40
+9400408,Castellan,180,42
+9400409,Castellan Toad,180,45
+9400410,Rock,200,1
+9400500,Malady,1,1
+9400501,Jr. Wraith,5,1
+9400502,Wraith,5,1
+9400503,Stirge,5,1
+9400505,Turkey,6,1
+9400506,Candle Monster,10,0
+9400507,Cake Monster,30,5
+9400508,Mad Turkey,27,10
+9400509,Sakura Cellion,33,15
+9400510,Green Eggy Popp,20,10
+9400511,Yellow Eggy Popp,11,8
+9400512,Cake Mob(2nd) ,30,0
+9400513,Candle Mob(2nd) ,10,0
+9400514,Geist Balrog Phase 3,95,35
+9400515,Indigo Eye,38,15
+9400516,Crystal Boar,40,15
+9400517,Magik Fierry A,40,32
+9400518,Magik Fierry B,30,25
+9400519,G Slime,35,15
+9400520,P Slime,35,15
+9400521,O Slime,38,18
+9400522,B Slime,38,18
+9400523,Evil Eye GL,27,10
+9400524,Curse Eye GL,35,10
+9400526,Fierry GL,30,25
+9400527,Fire Boar GL,32,10
+9400528,Sentinel GL,30,12
+9400529,Ice Sentinel GL,30,12
+9400530,Zombie Lupin GL,40,25
+9400531,Toy Trojan GL,39,18
+9400533,Indigo Eye PQ,38,15
+9400534,Crystal Boar PQ,40,15
+9400535,Magik Fiarry A PQ,40,32
+9400536,Geist Balrog Phase 1,80,30
+9400537,Geist Balrog Phase 2,100,40
+9400538,Street Slime,19,15
+9400539,Urban Fungus,21,7
+9400540,Killa Bee,25,5
+9400541,Killa Bee,25,5
+9400542,Fire Tusk,36,10
+9400543,Electrophant,41,28
+9400544,Gryphon,50,23
+9400545,Wolf Spider,80,30
+9400546,I.AM.ROBOT,44,30
+9400547,Boomer,27,10
+9400548,Mighty Maple Eater,30,10
+9400549,Headless Horseman,101,42
+9400551,Bob,2,0
+9400552,Zoo Snail,2,0
+9400553,Purple Flying Book,200,999
+9400554,Orange Flying Book,200,999
+9400555,Blue Flying Book,200,999
+9400556,Glutton Ghoul,21,10
+9400557,Psycho Jack Box,30,12
+9400558,Psycho Jack,30,12
+9400559,Sophilia Doll Ground,50,18
+9400560,Sophilia Doll,50,19
+9400561,Voodoo,60,22
+9400562,Hoodoo,60,22
+9400563,Nightmare,40,18
+9400564,Mirror Ghost,100,999
+9400565,Glutton Ghoul,21,10
+9400566,Loki Box Ex,1,1
+9400567,Loki Box Tr,1,1
+9400568,Turkey Commando,20,8
+9400569,Big Puff Daddy,60,0
+9400570,Anniversary Cake,15,5
+9400571,Headless Horseman,50,28
+9400572,Geist Balrog,60,28
+9400573,Baby typhon,40,0
+9400574,Typhon,100,40
+9400575,Bigfoot,110,37
+9400576,Windraider,70,30
+9400577,Firebrand,90,37
+9400578,Firebrand,90,37
+9400579,Nightshadow,100,45
+9400580,Elderwraith,95,38
+9400581,Stormbreaker,80,30
+9400582,Crimson Guardian,120,40
+9400583,Leprechaun,45,20
+9400584,Leprechaun,45,0
+9400585,Crimson Tree,75,10
+9400586,Crimson Tree,75,10
+9400587,Phantom Tree,50,10
+9400588,Phantom Tree,50,10
+9400594,Master Guardian,100,40
+9400595,Blood Stirge,20,999
+9400596,Scarlet Phoenix,120,45
+9400597,Azure Ocelot,120,45
+9400598,Dark Menhir,200,999
+9400599,Black Bird,100,16
+9400600,MasteriaPQ Mob Summoner,30,0
+9400634,Frog,5,10
+9400635,Cursed Frog,35,8
+9400636,Black Cat,5,10
+9400637,Cursed Black Cat,35,8
+9400638,Rotting Skeleton,20,12
+9400639,Dead Scarecrow,50,20
+9400640,Twisted Jester,70,22
+9400641,Olivia,30,11
+9400642,Olivia,50,23
+9400643,Olivia,70,33
+9400644,Malady,10,27
+9400645,Totem1,8,0
+9400646,Totem2,8,0
+9400647,A Parasite,15,5
+9400648,Possessed Bear Doll,30,12
+9400649,Possessed Rabbit Doll,30,12
+9400650,Possessed Bear Doll,50,28
+9400651,Possessed Rabbit Doll,50,28
+9400652,Possessed Bear Doll,65,27
+9400653,Possessed Rabbit Doll,65,31
+9400658,Imperial Guard Type A,143,47
+9400659,Dunas Type D,174,35
+9400660,Royal Guard Type S,160,100
+9400661,Afterlord Type A,135,20
+9400707,Item Maker,30,0
+9400708,Snowman1,20,1
+9400709,Snowman2,50,0
+9400710,Snowman3,60,0
+9400711,Transparent Mob,1,0
+9400712,Little Snowman,10,1
+9400713,Item Killer,10,2
+9400714,Snow Blower,1,2
+9400715,Snow Blower,1,2
+9400716,Snow Blower,1,2
+9400717,Snow Blower,1,2
+9400718,Snow Blower,1,2
+9400719,Snow Blower,1,2
+9400720,Snow Blower,1,2
+9400721,Snow Blower,1,2
+9400722,Snow Blower,1,2
+9400723,Snow Blower,1,2
+9400724,Snow Blower,1,2
+9400725,Red Ribbon Pig,5,2
+9400728,Red the Grumpy,11,0
+9400729,Green the Smelly,11,0
+9400730,Blue the Dopey,11,0
+9400734,Giant Tomato,12,1
+9400737,Drunken Slime,5,1
+9400738,Drunken Lupin,30,10
+9400739,Guy Fawkes Minion,8,15
+9400740,Guy Fawkes Minion,8,20
+9400748,Guy Fawkes,10,10
+9400749,Red Eggy Popp,50,12
+9400756,Event Monster 1,17,5
+9400757,Event Monster 2,12,4
+9400758,Event Monster 3,10,1
+9400759,Event Monster 4,10,10
+9400768,Event Monster 13,25,8
+9400779,Event Monster 24,32,14
+9400783,Event Monster 28,40,18
+9400787,Event Monster 32,62,26
+9400799,Christmas Balrog,12,1
+9400814,Maple Bday Cake,15,0
+9400815,CristamsSlime,20,10
+9400816,CristamsStirge,12,5
+9400817,CristmasFlyeye,13,5
+9400818,CristmasJr.Wraith,14,4
+9400819,CristmasSnowman,14,0
+9400820,CristmasCandle,15,7
+9400821,CristamsCandleman,16,0
+9400822,CristmasRudolph,17,1
+9409000,Tutorial Leatty,1,0
+9409001,Tutorial Drumming Rabbit,1,0
+9410000,Stray Dog,23,7
+9410001,Stylish Stray Dog,25,8
+9410002,Angry Stray Dog,42,20
+9410003,Clown Monkey,40,25
+9410004,Biker Monkey,47,18
+9410005,Red Bubble Tea,38,15
+9410006,Yellow Bubble Tea,38,15
+9410007,Green Bubble Tea,38,15
+9410008,Yeti UFO Catcher,50,20
+9410009,Yeti Doll,36,10
+9410010,Jr. Pepe UFO Catcher,50,20
+9410011,Jr. Pepe Doll,36,10
+9410012,UFO Catcher,60,10
+9410013,Doll Vending Machine,60,20
+9410014,Snack Bar,85,10
+9410015,Snack Bar,85,40
+9410022,Blue Perfume,67,15
+9410023,Transformed Blue Perfume,67,30
+9410024,Yellow Perfume,69,20
+9410025,Transformed Yellow Perfume,69,35
+9410026,Pink Perfume,65,15
+9410027,Transformed Pink Perfume,65,25
+9410028,Cheap Amplifier,70,35
+9410029,Fancy Amplifier,74,37
+9410030,Latest Hits Compilation,72,35
+9410031,Greatest Oldies,76,40
+9410032,Kid Mannequin,75,37
+9410033,Female Mannequin,77,40
+9410034,Male Mannequin,80,45
+9410035,Spirit of Rock,100,55
+9410039,Demon Slime,23,8
+9410043,z客,100,55
+9410052,Gingerbread Man,35,999
+9410053,Gingerbread Man,35,999
+9410054,Strawberry Shortcake,10,1
+9410055,Strawberry Cake,40,1
+9410056,Chocolate-Cherry Cake,70,1
+9420000,Toad,28,12
+9420001,Frog,8,1
+9420002,Python,60,22
+9420003,Red Lizard,40,15
+9420004,Yellow Lizard,25,8
+9420005,White Rooster,15,5
+9420007,Wild Monkey,42,12
+9420008,Mama Monkey,50,25
+9420009,White Baby Monkey,20,10
+9420010,White Mama Monkey,65,24
+9420011,Red Goblin,90,35
+9420012,Blue Goblin,83,27
+9420013,Strong Stone Goblin,99,38
+9420014,Ravana,120,15
+9420015,NooNoo,60,0
+9420500,Stopnow,28,10
+9420501,Freezer,38,18
+9420502,Biner,18,5
+9420503,Nospeed,33,10
+9420504,Tippo Red,50,20
+9420505,Tippo Blue,53,18
+9420506,Batoo,23,8
+9420507,Trucker,48,20
+9420508,Octobunny,43,18
+9420509,Pac Pinky,58,18
+9420510,Slimy,63,20
+9420511,Selkie Jr.,60,22
+9420512,Mr. Anchor,68,27
+9420513,Capt. Latanica,100,12
+9420514,Berserkie,85,30
+9420515,Veetron,90,35
+9420516,Slygie,95,35
+9420517,Petrifighter,110,38
+9420518,Montrecer,105,45
+9420519,Duku,115,39
+9420520,Krexel,140,10
+9420521,Krexel,140,20
+9420522,Krexel,140,18
+9420523,Bacal,80,28
+9420524,Bacal,80,28
+9420525,Gas Tank,30,999
+9420526,Broken Wires,30,999
+9420527,Chlorotrap,45,18
+9420528,Emo Slime,47,24
+9420529,Dark Fission,52,20
+9420530,Oly Oly,56,22
+9420531,Scaredy Scarlion,59,25
+9420532,Ratatula,59,20
+9420533,Rodeo,61,28
+9420534,Charmer,65,24
+9420535,Jester Scarlion,68,27
+9420536,Froscola,72,25
+9420537,Yabber Doo,75,25
+9420538,Booper Scarlion,82,29
+9420539,Vikerola,87,26
+9420540,Gallopera,94,37
+9420541,Targa,140,10
+9420542,Targa,80,4
+9420543,Angry Targa,100,6
+9420544,Furious Targa,140,20
+9420545,Ratatula,59,20
+9420546,Scarlion Boss,140,10
+9420547,Scarlion Boss,80,4
+9420548,Angry Scarlion Boss,100,6
+9420549,Furious Scarlion Boss,140,20
+9420550,Scaredy Scarlion,59,25
+9500000,Making a wish to full moon,1,12
+9500001,Making a wish to the full moon,1,12
+9500002,Making a wish to the full moon,1,12
+9500003,Making a wish to the full moon,1,12
+9500004,Making a wish to the full moon,1,12
+9500005,Making a wish to the full moon,1,12
+9500100,Slime,6,1
+9500101,Pig,7,0
+9500102,Orange Mushroom,8,1
+9500104,Octopus,12,4
+9500105,Green Mushroom,15,5
+9500106,Horny Mushroom,22,7
+9500107,Drumming Bunny,30,12
+9500108,Ligator,32,12
+9500109,Ratz,32,13
+9500110,Star Pixie,35,21
+9500111,Jr. Wraith,35,17
+9500112,Jr. Pepe,35,18
+9500113,Panda Teddy,36,16
+9500114,King Blockpus,38,18
+9500115,Lorang,37,18
+9500117,Helly,36,17
+9500118,Tweeter,39,17
+9500119,Toy Trojan,39,18
+9500120,King Block Golem,45,14
+9500121,Wraith,48,20
+9500123,Mixed Golem,59,20
+9500124,Mushmom,60,27
+9500125,Red Drake,60,22
+9500126,Ice Drake,64,25
+9500127,Master Soul Teddy,67,27
+9500128,Dark Yeti,68,26
+9500131,Luinel,73,28
+9500132,Werewolf,75,25
+9500133,Yeti and Pepe,78,30
+9500134,Lycanthrope,80,28
+9500135,Death Teddy,85,27
+9500136,Gigantic Viking,98,38
+9500137,G. Phantom Watch,95,37
+9500139,Jr. Balrog,80,30
+9500141,Separated Yeti,65,24
+9500142,Separated Pepe,60,30
+9500143,Coke Pig,35,16
+9500144,Coke Snail,10,2
+9500145,Coke Seal,38,18
+9500146,Play Seal,42,18
+9500147,Yeti and Coketump,70,18
+9500148,Igloo Turtle,45,18
+9500149,Coke Golem,50,24
+9500150,Ice Golem,60,24
+9500151,Coke Slime,15,10
+9500152,Coke Mushroom,20,7
+9500153,Coketump,25,8
+9500154,Coketump Lite,30,12
+9500155,Three-Tailed Fox,56,28
+9500156,Wraith,48,20
+9500157,Jr. Wraith,35,17
+9500158,Yellow King Goblin,70,15
+9500160,Green King Goblin,70,15
+9500161,Hankie,80,28
+9500162,Harp,80,28
+9500165,Red Kentaurus,88,28
+9500167,Golden Pig,10,2
+9500168,King Slime,20,0
+9500169,Jr. Balrog,30,0
+9500170,Papa Pixie,45,0
+9500173,Griffey,80,0
+9500174,Manon,80,0
+9500175,Angry Lord Pirate,60,0
+9500177,Giant Centipede,50,0
+9500178,Snack Bar,40,0
+9500179,Transformed Snack Bar,40,0
+9500180,Papulatus,90,0
+9500181,Papulatus,90,0
+9500182,Watermelon Guard Hogol ,35,999
+9500183,Watermelon Guard Hogol ,35,999
+9500184,Rideword P,15,1
+9500185,Rideword Y,15,1
+9500186,Rideword B,15,1
+9500188,Destroyed Doll,20,1
+9500189,Gift Box,30,1
+9500190,Toy Clown,1800,17
+9500191,Green Phantom,16,1
+9500192,Pumpkin Knight,100,1
+9500193,Fire Steed,100,1
+9500194,Mirror Ghost,20,999
+9500195,Jack-o-Lantern,10,1
+9500196,Ghost,15,1
+9500197,Ghost,10,1
+9500198,Gift Box,100,1
+9500199,Toy Clown,100,1
+9500200,Zoo Balrog,80,30
+9500201,Zoo Yeti,65,24
+9500202,Zoo White Fang,58,25
+9500203,Zoo Pig,7,0
+9500204,Zoo Ribbon Pig,10,2
+9500301,Destroyed Doll,100,1
+9500302,Jack-o-Lantern at Pumpkin Farm,5,0
+9500303,Mirror Ghost 2,20,999
+9500304,Mirror Ghost 3,20,999
+9500305,Jack-o-Lantern,10,1
+9500306,Zoo Mano,20,8
+9500307,Zoo Stumpy,35,12
+9500308,Zoo Faust,50,20
+9500309,Zoo King Clang,55,20
+9500310,Zoo Timer,59,20
+9500311,Zoo Dyle,65,30
+9500312,Zoo Old Fox,70,25
+9500313,Zoo Tae Roon,71,30
+9500314,Zoo King Sage Cat,77,27
+9500315,Zoo Elliza,83,30
+9500316,Zoo Snowman,90,38
+9500317,Kid Snowman,10,1
+9500318,Angry Snowman,40,1
+9500319,Giant Snowman,70,1
+9500320,Lost Rudolph,10,1
+9500321,Snowman,10,1
+9500322,Kid Snowman,10,1
+9500323,Kitty from Cheese Storage,70,999
+9500324,Kitty from Cheese Storage,70,999
+9500325,King Slime,23,9
+9500326,Mushmom,45,21
+9500327,Jr. Balrog,30,12
+9500329,Papa Pixie,40,13
+9500331,Papulatus,55,15
+9500332,Pianus,45,14
+9500333,Leviathan,50,15
+9500334,Lord Pirate,55,18
+9500335,Frankenroid,50,15
+9500336,P Junior,70,999
+9500337,Mano,20,8
+9500338,Stumpy,35,12
+9500339,Deo,38,18
+9500340,King Slime,40,10
+9500341,Faust,50,20
+9500342,King Clang,55,20
+9500344,Timer,59,20
+9500345,Mushmom,60,27
+9500346,Dyle,65,30
+9500347,Zeno,65,29
+9500348,Nine-Tailed Fox,70,25
+9500349,Lord Pirate,60,22
+9500350,Tae Roon,71,30
+9500351,Papa Pixie,65,18
+9500352,King Sage Cat,77,27
+9500353,Jr. Balrog,80,30
+9500354,Frankenroid,81,28
+9500355,Eliza,83,30
+9500356,Chimera,85,27
+9500357,Snow Yeti,90,38
+9500359,Manon,105,39
+9500360,Griffey,105,39
+9500361,Leviathan,120,41
+9500362,Papulatus,125,12
+9500363,Pianus,110,14
+9500364,Mini Dungeon Transparent Monster,10,1
+9500365,Mini Dungeon Agent Box,10,1
+9500400,Gourd,1,1
+9600001,Rooster,20,7
+9600002,Duck,22,7
+9600003,Sheep,25,8
+9600004,Goat,30,12
+9600005,Black Goat,35,12
+9600006,Cow,33,12
+9600007,Plow Ox,38,20
+9600008,Black Sheep,37,18
+9600009,Giant Centipede,50,27
+9600010,Giant Centipede,50,27
+9600012,Black Bear Swordsman,80,28
+9600013,White Tiger Swordsman,90,37
+9600014,Eagle Swordsman,95,37
+9600015,Male Thief,95,37
+9600016,Female Thief,95,37
+9600017,Censer,100,40
+9600018,Wooden Fish,105,38
+9600019,Mini Gold Martial Artist,130,75
+9600020,Mini Bronze Martial Artist,120,43
+9600021,Golden Giant,130,75
+9600022,Silver Giant,125,45
+9600023,Bronze Staffman,120,43
+9600024,Silver Spearman,125,45
+9600025,Jiaoceng,150,27
+9600026,Jiaoceng,140,20
+9600030,邪恶双刀蜥蜴,105,45
+9600037,Letter A,30,20
+9600038,Letter B,30,20
+9600039,Letter C,30,20
+9600040,Letter D,30,20
+9600041,Letter E,30,20
+9600042,Letter F,30,20
+9600043,Letter G,30,20
+9600044,Letter H,30,20
+9600045,Letter I,30,20
+9600046,Letter J,30,20
+9600047,Letter K,30,20
+9600048,Letter L,30,20
+9600049,Letter M,30,20
+9600050,Letter N,30,20
+9600051,Letter O,30,20
+9600052,Letter P,30,20
+9600053,Letter Q,30,20
+9600054,Letter R,30,20
+9600055,Letter S,30,20
+9600056,Letter T,30,20
+9600057,Letter U,30,20
+9600058,Letter V,30,20
+9600059,Letter W,30,20
+9600060,Letter X,30,20
+9600061,Letter Y,30,20
+9600062,Letter Z,30,20
