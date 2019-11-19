@@ -2,6 +2,7 @@
 	1).	Magician Variable Accuracy
 	2). Write values to INI file
 */
+
 SplitView := 0
 
 
@@ -23,8 +24,11 @@ If !FileExist(A_ScriptDir "\MapleAccuracy.csv")
 edtW	:= 100
 guiW	:= 110 + edtW
 edtX	:= guiW - edtW - 9
-btnW	:= 60
+nBtn	:= 2
+btnW	:= 50
 btnH	:= 23 ; Default = 23
+btnG	:= (guiW - (btnW * nBtn)) / (nBtn + 1)
+bYPos	:= (guiH1 + guiH2) - Floor(guiH3 + btnH / 2)	; Split view
 
 _MonArray := []
 Gosub ReadINI
@@ -88,17 +92,14 @@ Gui, Add, Edit, xs+%edtX% yp-3 w%edtW% +ReadOnly vpctAcc,
 SldW := guiW - 8
 Gui, Add, Slider, xs+4 y+8 w%SldW% h20 AltSubmit +TickInterval10 gAccSlider vsPct +0x400, %sPct%
 
-nBtn	:= 3
-btnG	:= (guiW - (btnW * nBtn)) / (nBtn + 3)
-bXPos	:= btnG * 2
-bYPos	:= (guiH1 + guiH2) - Floor(guiH3 + btnH / 2)	; Split view
 If %SplitView% {
-	Gui, Add, Button, xs+%bXPos% y+%bYPos% w%btnW% h%btnH% +Default gCalculate, Calculate	; Split view
+	;Gui, Add, Button, xs+%btnG% y+%bYPos% w%btnW% h%btnH% +Default gCalculate, Calculate	; Split view
 } Else {
-	Gui, Add, Button, xs+%bXPos% w%btnW% h%btnH% +Default gCalculate, Calculate
+	;Gui, Add, Button, xs+%btnG% w%btnW% h%btnH% +Default gCalculate, Calculate
 }
-Gui, Add, Button, x+%btnG% w%btnW% gReset, Reset
+Gui, Add, Button, xs+%btnG% w%btnW% gReset, Reset
 Gui, Add, Button, x+%btnG% w%btnW% gClear, Clear
+
 
 Gosub, GuiUpdate
 Gui, Show
@@ -127,6 +128,7 @@ GuiUpdate:
 AccSlider:
 	Gui, Submit, NoHide
 	GuiControl, Text, SliderText, Acc. for %sPct%`% Hit:
+	Gosub, Calculate
 Return
 
 SetBuff:
@@ -145,6 +147,7 @@ SetMon:
 	GuiControl, -AltSubmit, mName
 	GuiControl,, mLvl, % _MonArray[_MonIndex, 3]
 	GuiControl,, mEva, % _MonArray[_MonIndex, 4]
+	Gosub, Calculate
 Return
 
 Calculate:
