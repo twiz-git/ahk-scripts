@@ -112,18 +112,17 @@ GuiUpdate:
 	If (pType = "Magician") {
 		GuiControl, Text, Text1, Character INT:
 		GuiControl, Text, Text2, Character LUK:
+		GuiControl, Hide, pAcc
+		GuiControl, Hide, pBuffName
 		GuiControl, Show, pInt
 		GuiControl, Show, pLuk
-		GuiControl, Hide, pAcc
-		GuiControl, Hide, pBuff
-		
 	} Else {
 		GuiControl, Text, Text1, Character Acc:
 		GuiControl, Text, Text2, Accuracy Buff:
 		GuiControl, Hide, pInt
 		GuiControl, Hide, pLuk
 		GuiControl, Show, pAcc
-		GuiControl, Show, pBuff
+		GuiControl, Show, pBuffName
 	}
 AccSlider:
 	Gui, Submit, NoHide
