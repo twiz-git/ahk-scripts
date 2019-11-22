@@ -198,7 +198,7 @@ WriteINI:
 	IniWrite, %pLuk%,	%A_ScriptFullPath%.ini, Settings, PlayerLuk
 	IniWrite, %mLvl%,	%A_ScriptFullPath%.ini, Settings, MonsterLvl
 	IniWrite, %mEva%,	%A_ScriptFullPath%.ini, Settings, MonsterEva
-	IniWrite, %sPos%,	%A_ScriptFullPath%.ini, Settings, HitGoal
+	IniWrite, %sPct%,	%A_ScriptFullPath%.ini, Settings, HitGoal
 	IniWrite, %SView%,	%A_ScriptFullPath%.ini, Settings, SplitView
 Return
 
