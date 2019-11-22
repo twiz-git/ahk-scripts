@@ -1,14 +1,3 @@
-/**********		TO DO:		**********
-	1).	Magician Variable Accuracy
-	2). Write values to INI file
-*/
-
-SplitView := 0
-
-
-
-
-
 #SingleInstance, Force
 #NoEnv	; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn	; Enable warnings to assist with detecting common errors.
@@ -17,18 +6,17 @@ SetWorkingDir %A_ScriptDir%	; Ensures a consistent starting directory.
 FileEncoding, UTF-8
 
 
-If !FileExist(A_ScriptDir "\MapleAccuracy.csv")
-	URLDownloadToFile, https://raw.githubusercontent.com/twiz-ahk/ahk-scripts/master/MapleAccuracy/MapleAccuracy.csv , %A_ScriptDir%\MapleAccuracy.csv
+If !FileExist(A_ScriptFullPath ".csv")
+	URLDownloadToFile, https://raw.githubusercontent.com/twiz-ahk/ahk-scripts/master/MapleAccuracy/MapleAccuracy.csv , %A_ScriptFullPath%.csv
 
 
 edtW	:= 100
 guiW	:= 110 + edtW
 edtX	:= guiW - edtW - 9
-nBtn	:= 2
+nBtn	:= 3
 btnW	:= 50
 btnH	:= 23 ; Default = 23
 btnG	:= (guiW - (btnW * nBtn)) / (nBtn + 1)
-bYPos	:= (guiH1 + guiH2) - Floor(guiH3 + btnH / 2)	; Split view
 
 _MonArray := []
 Gosub ReadINI
@@ -57,12 +45,12 @@ Gui, Add, GroupBox, Section w%guiW% h%guiH1%, Character Stats
 Gui, Add, Text,	xs+10 ys+19, Character Type:
 Gui, Add, DDL,	xs+%edtX% yp-3 w%edtW% vpType gGuiUpdate, Magician|Non-Magician||
 Gui, Add, Text, xs+10 y+8, Character Level:
-Gui, Add, Edit, xs+%edtX% yp-3 w%edtW% vpLvl, %pLvl%
+Gui, Add, Edit, xs+%edtX% yp-3 w%edtW% vpLvl gCalculate, %pLvl%
 Gui, Add, Text, xs+10 y+8 vText1, Character ####:
-Gui, Add, Edit, xs+%edtX% yp-3 w%edtW% vpInt, %pInt%
-Gui, Add, Edit, xs+%edtX% yp w%edtW% vpAcc, %pAcc%
+Gui, Add, Edit, xs+%edtX% yp-3 w%edtW% vpInt gCalculate, %pInt%
+Gui, Add, Edit, xs+%edtX% yp w%edtW% vpAcc gCalculate, %pAcc%
 Gui, Add, Text, xs+10 y+8 vText2, Character ####:
-Gui, Add, Edit, xs+%edtX% yp-3 w%edtW% vpLuk, %pLuk%
+Gui, Add, Edit, xs+%edtX% yp-3 w%edtW% vpLuk gCalculate, %pLuk%
 Gui, Add, DDL, xs+%edtX% yp w%edtW% hwndBuffID vpBuffName gSetBuff, %BuffList%
 SendMessage, 0x0160, 175, 0, , ahk_id %BuffID%
 
@@ -70,12 +58,12 @@ guiH2 := editHeight(3)
 Gui, Add, GroupBox, Section xs w%guiW% h%guiH2%, Monster Stats
 Gui, Add, ComboBox, xs+10 ys+19 r19 w191 hwndMonID vmName gSetMon, %_MonList%
 Gui, Add, Text, xs+10 y+8, Monster Level:
-Gui, Add, Edit, xs+%edtX% yp-3 w%edtW% vmLvl, %mLvl%
+Gui, Add, Edit, xs+%edtX% yp-3 w%edtW% vmLvl gCalculate, %mLvl%
 Gui, Add, Text, xs+10 y+8, Monster Evade:
-Gui, Add, Edit, xs+%edtX% yp-3 w%edtW% vmEva, %mEva%
+Gui, Add, Edit, xs+%edtX% yp-3 w%edtW% vmEva gCalculate, %mEva%
 
 guiH3 := editHeight(5)
-If %SplitView% {
+If %SView% {
 	SctW := guiW + 8
 	Gui, Add, GroupBox, Section xs+%SctW% y6 w%guiW% h%guiH3%, Calculations	; Split view
 } Else
@@ -92,14 +80,14 @@ Gui, Add, Edit, xs+%edtX% yp-3 w%edtW% +ReadOnly vpctAcc,
 SldW := guiW - 8
 Gui, Add, Slider, xs+4 y+8 w%SldW% h20 AltSubmit +TickInterval10 gAccSlider vsPct +0x400, %sPct%
 
-If %SplitView% {
-	;Gui, Add, Button, xs+%btnG% y+%bYPos% w%btnW% h%btnH% +Default gCalculate, Calculate	; Split view
+If %SView% {
+	bYPos := (guiH1 + guiH2) - Floor(guiH3 + btnH / 2)	; Split view
 } Else {
-	;Gui, Add, Button, xs+%btnG% w%btnW% h%btnH% +Default gCalculate, Calculate
+	bYPos := 12
 }
-Gui, Add, Button, xs+%btnG% w%btnW% gReset, Reset
+Gui, Add, Button, xs+%btnG% y+%bYPos% w%btnW% h%btnH% +Default gWriteINI, Save
+Gui, Add, Button, x+%btnG% w%btnW% gReset, Reset
 Gui, Add, Button, x+%btnG% w%btnW% gClear, Clear
-
 
 Gosub, GuiUpdate
 Gui, Show
@@ -137,6 +125,7 @@ SetBuff:
 		pBuff := 0
 	Else
 		pBuff := RegExReplace(pBuffName, "\s*(.?\d+).*", "$1")
+	Gosub, Calculate
 Return
 
 SetMon:
@@ -152,7 +141,6 @@ Return
 
 Calculate:
 	Gui, Submit, NoHide
-	Gosub, SetBuff
 	LvlDiff := mLvl - pLvl
 	If (LvlDiff < 0)
 		LvlDiff := 0
@@ -160,7 +148,7 @@ Calculate:
 	If (pType = "Magician") {
 		totAcc	:= Floor(pInt / 10) + Floor(pLuk / 10)
 		maxAcc	:= Ceil((mEva + 1) * (1 + 0.04 * LvlDiff))
-		pctAcc	:= "Soon™"
+		pctAcc	:= "Work in progress"
 		minAcc	:= Ceil(0.41 * maxAcc)
 		
 		fncAcc	:= (totAcc - minAcc + 1) / (maxAcc - minAcc + 1)
@@ -197,7 +185,21 @@ ReadINI:
 	IniRead, mLvl,	%A_ScriptFullPath%.ini, Settings, MonsterLvl, 1
 	IniRead, mEva,	%A_ScriptFullPath%.ini, Settings, MonsterEva, 1
 	IniRead, sPos,	%A_ScriptFullPath%.ini, Settings, HitGoal, 90
+	IniRead, SView,	%A_ScriptFullPath%.ini, Settings, SplitView, 0
 	sPct := sPos
+	pBuff := 0
+Return
+
+WriteINI:
+	IniWrite, %pType%,	%A_ScriptFullPath%.ini, Settings, PlayerType
+	IniWrite, %pLvl%,	%A_ScriptFullPath%.ini, Settings, PlayerLvl
+	IniWrite, %pAcc%,	%A_ScriptFullPath%.ini, Settings, PlayerAcc
+	IniWrite, %pInt%,	%A_ScriptFullPath%.ini, Settings, PlayerInt
+	IniWrite, %pLuk%,	%A_ScriptFullPath%.ini, Settings, PlayerLuk
+	IniWrite, %mLvl%,	%A_ScriptFullPath%.ini, Settings, MonsterLvl
+	IniWrite, %mEva%,	%A_ScriptFullPath%.ini, Settings, MonsterEva
+	IniWrite, %sPos%,	%A_ScriptFullPath%.ini, Settings, HitGoal
+	IniWrite, %SView%,	%A_ScriptFullPath%.ini, Settings, SplitView
 Return
 
 ReadDB:
@@ -219,7 +221,7 @@ Return
 
 Reset:
 	Gosub, ReadINI
-	GuiControl, Choose, pType, 2
+	GuiControl, Choose, pType, %pType%
 	GuiControl,, pLvl, %pLvl%
 	GuiControl,, pAcc, %pAcc%
 	GuiControl,, pInt, %pInt%
@@ -227,6 +229,7 @@ Reset:
 	GuiControl,, mLvl, %mLvl%
 	GuiControl,, mEva, %mEva%
 	Gosub, CommonClear
+	Gosub, Calculate
 Return
 
 Clear:
