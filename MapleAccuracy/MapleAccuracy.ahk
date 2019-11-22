@@ -205,7 +205,7 @@ Return
 ReadDB:
 	n := 0
 	_MonList := ""
-	FileRead, _MonDB, MapleAccuracy.csv
+	FileRead, _MonDB, %A_ScriptFullPath%.csv
 	Loop, Parse, _MonDB, `n
 	{
 		n += 1
