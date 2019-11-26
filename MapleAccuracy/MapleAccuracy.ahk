@@ -43,7 +43,7 @@ BuffList =
 guiH1 := editHeight(4)
 Gui, Add, GroupBox, Section w%guiW% h%guiH1%, Character Stats
 Gui, Add, Text,	xs+10 ys+19, Character Type:
-Gui, Add, DDL,	xs+%edtX% yp-3 w%edtW% vpType gGuiUpdate, Magician|Non-Magician||
+Gui, Add, DDL,	xs+%edtX% yp-3 w%edtW% vpType gGuiUpdate, Magician|Non-Magician|
 Gui, Add, Text, xs+10 y+8, Character Level:
 Gui, Add, Edit, xs+%edtX% yp-3 w%edtW% vpLvl gCalculate, %pLvl%
 Gui, Add, Text, xs+10 y+8 vText1, Character ####:
@@ -89,6 +89,9 @@ Gui, Add, Button, xs+%btnG% y+%bYPos% w%btnW% h%btnH% +Default gWriteINI, Save
 Gui, Add, Button, x+%btnG% w%btnW% gReset, Reset
 Gui, Add, Button, x+%btnG% w%btnW% gClear, Clear
 
+
+GuiControl, ChooseString, pType, %pType%
+GuiControl, ChooseString, mName, %mName%
 Gosub, GuiUpdate
 Gui, Show
 Return
@@ -136,7 +139,6 @@ SetMon:
 	GuiControl, -AltSubmit, mName
 	GuiControl,, mLvl, % _MonArray[_MonIndex, 3]
 	GuiControl,, mEva, % _MonArray[_MonIndex, 4]
-	Gosub, Calculate
 Return
 
 Calculate:
@@ -147,12 +149,16 @@ Calculate:
 
 	If (pType = "Magician") {
 		totAcc	:= Floor(pInt / 10) + Floor(pLuk / 10)
-		maxAcc	:= Ceil((mEva + 1) * (1 + 0.04 * LvlDiff))
+		maxAcc	:= Floor((mEva + 1) * (1 + 0.04 * LvlDiff))
+		minAcc	:= Floor(0.41 * maxAcc)
 		pctAcc	:= "Work in progress"
-		minAcc	:= Ceil(0.41 * maxAcc)
-		
-		fncAcc	:= (totAcc - minAcc + 1) / (maxAcc - minAcc + 1)
-		hitRate	:= Round((-0.7011618132 * (fncAcc**2) + 1.702139835 * fncAcc)*100, 2)
+
+		If (totAcc < maxAcc) {
+			fncAcc	:= (totAcc - minAcc + 1) / (maxAcc - minAcc + 1)
+			hitRate	:= Round((-0.7011618132 * fncAcc**2 + 1.702139835 * fncAcc) * 100, 2)
+		} Else {
+			hitRate := 100
+		}
 	} Else {
 		totAcc	:= pAcc + pBuff
 		AccMod	:= (1.84 + 0.07 * LvlDiff) * mEva
@@ -160,8 +166,8 @@ Calculate:
 			AccMod := 1
 		maxAcc	:= Ceil((1 + 1) * AccMod)
 		pctAcc	:= Ceil((1 + sPct / 100) * AccMod)
-		
-		hitRate	:= RegExReplace(100 * (totAcc / (AccMod) - 1), "(\.\d{2})\d*","$1")
+
+		hitRate	:= Round(100 * (totAcc / (AccMod) - 1), 2)
 	}
 	
 	If (hitRate < 0)
@@ -177,15 +183,17 @@ Return
 
 
 ReadINI:
+	Gui, Submit, NoHide
 	IniRead, pType,	%A_ScriptFullPath%.ini, Settings, PlayerType
 	IniRead, pLvl,	%A_ScriptFullPath%.ini, Settings, PlayerLvl, 1
 	IniRead, pAcc,	%A_ScriptFullPath%.ini, Settings, PlayerAcc, 1
 	IniRead, pInt,	%A_ScriptFullPath%.ini, Settings, PlayerInt, 4
 	IniRead, pLuk,	%A_ScriptFullPath%.ini, Settings, PlayerLuk, 4
+	IniRead, mName,	%A_ScriptFullPath%.ini, Settings, MonsterName
 	IniRead, mLvl,	%A_ScriptFullPath%.ini, Settings, MonsterLvl, 1
 	IniRead, mEva,	%A_ScriptFullPath%.ini, Settings, MonsterEva, 1
 	IniRead, sPos,	%A_ScriptFullPath%.ini, Settings, HitGoal, 90
-	IniRead, SView,	%A_ScriptFullPath%.ini, Settings, SplitView, 0
+	;IniRead, SView,	%A_ScriptFullPath%.ini, Settings, SplitView, 0
 	sPct := sPos
 	pBuff := 0
 Return
@@ -196,10 +204,11 @@ WriteINI:
 	IniWrite, %pAcc%,	%A_ScriptFullPath%.ini, Settings, PlayerAcc
 	IniWrite, %pInt%,	%A_ScriptFullPath%.ini, Settings, PlayerInt
 	IniWrite, %pLuk%,	%A_ScriptFullPath%.ini, Settings, PlayerLuk
+	IniWrite, %mName%,	%A_ScriptFullPath%.ini, Settings, MonsterName
 	IniWrite, %mLvl%,	%A_ScriptFullPath%.ini, Settings, MonsterLvl
 	IniWrite, %mEva%,	%A_ScriptFullPath%.ini, Settings, MonsterEva
 	IniWrite, %sPct%,	%A_ScriptFullPath%.ini, Settings, HitGoal
-	IniWrite, %SView%,	%A_ScriptFullPath%.ini, Settings, SplitView
+	;IniWrite, %SView%,	%A_ScriptFullPath%.ini, Settings, SplitView
 Return
 
 ReadDB:
@@ -226,6 +235,7 @@ Reset:
 	GuiControl,, pAcc, %pAcc%
 	GuiControl,, pInt, %pInt%
 	GuiControl,, pLuk, %pLuk%
+	GuiControl, Choose, mName, %mName%
 	GuiControl,, mLvl, %mLvl%
 	GuiControl,, mEva, %mEva%
 	Gosub, CommonClear
@@ -238,6 +248,7 @@ Clear:
 	GuiControl,, pAcc
 	GuiControl,, pInt
 	GuiControl,, pLuk
+	GuiControl, Choose, mName, 0
 	GuiControl,, mLvl
 	GuiControl,, mEva
 	Gosub, CommonClear
@@ -245,7 +256,6 @@ Return
 
 CommonClear:
 	GuiControl, Choose, pBuffName, 0
-	GuiControl, Choose, mName, 0
 	GuiControl,, pBuff
 	GuiControl,, totAcc
 	GuiControl,, hitRate
